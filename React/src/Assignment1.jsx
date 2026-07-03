@@ -8,18 +8,18 @@ const Assignment1 = () => {
       {button ? (
         <>
           <button
-            className="bg-amber-600 h-10 w-20 border-2 mt-4"
+            className="bg-green-400 h-10 w-20 border-2 mt-4"
             onClick={() => setButton(false)}
           >
             off
           </button>
-          <div className="bg-green-500 h-300 w-200"></div>
+          <div className="bg-amber-500 h-300 w-200"  hover:brightness-90 ></div>
         </>
       ) : (
         <>
          
           <button
-            className="bg-green-500 h-10 w-20 border-2 mt-4"
+            className="bg-green-400 h-10 w-20 border-2 mt-4"
             onClick={() => setButton(true)}
           >
             On
