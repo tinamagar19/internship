@@ -26,36 +26,38 @@ const Timer = () => {
   };
 
   return (
-   
-    <div className="fixed inset-0 m-auto bg-yellow-200 border-4 border-black w-90p h-90 flex flex-col justify-center items-center ">
+  
+    <div className="min-h-screen w-full flex justify-center items-center bg-gray-100">
       
-     
-      <div className="text-5xl  text-black mb-8">
-        {formatTime(seconds)}
-      </div>
+      <div className="bg-yellow-200 border-4 border-black w-200 h-80 flex flex-col justify-center items-center rounded-sm ">
+        
+        <div className="text-5xl text-black mb-8 ">
+          {formatTime(seconds)}
+        </div>
 
-     
-      <div className="flex gap-5">
-        <button 
-          onClick={() => setIsActive(true)}
-          className="bg-white text-black  border-2 border-black px-6 py-2"
-        >
-          start
-        </button>
-        
-        <button 
-          onClick={() => setIsActive(false)}
-          className="bg-white text-black  border-2 border-black px-6 py-2 "
-        >
-          pause
-        </button>
-        
-        <button 
-          onClick={() => { setIsActive(false); setSeconds(0); }}
-          className="bg-white text-black border-2 border-black px-6 py-2"
-        >
-          reset
-        </button>
+        <div className="flex gap-5">
+          <button 
+            onClick={() => setIsActive(true)}
+            className="bg-white text-black border-2 border-black px-6 py-2"
+          >
+            start
+          </button>
+          
+          <button 
+            onClick={() => setIsActive(false)}
+            className="bg-white text-black border-2 border-black px-6 py-2"
+          >
+            pause
+          </button>
+          
+          <button 
+            onClick={() => { setIsActive(false); setSeconds(0); }}
+            className="bg-white text-black border-2 border-black px-6 py-2"
+          >
+            reset
+          </button>
+        </div>
+
       </div>
 
     </div>

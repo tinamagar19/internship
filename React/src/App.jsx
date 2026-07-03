@@ -7,21 +7,18 @@ import Timer from './Timer';
 
 
 const App = () => {
-  return (
-
-    <div className="min-h-screen w-full flex justify-center items-center bg-gray-100">
-     
+  return (     
    
     
-      {/* <RegisterForm /> */}
+      // <RegisterForm/>
 
-      {/* <Assignment1/>  */}
+      // <Assignment1/> 
 
-      {/* <Assignment2/> */}
+      // <Assignment2/>
 
        <Timer />
 
-        </div>
+       
    
 
   
