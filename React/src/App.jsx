@@ -3,6 +3,7 @@ import RegisterForm from './RegisterForm';
 import Assignment1 from './Assignment1';
 import Assignment2 from './Assignment2';
 import Timer from './Timer';
+import HandleForm from './HandleForm';
 
 
 
@@ -16,7 +17,9 @@ const App = () => {
 
       // <Assignment2/>
 
-       <Timer />
+      //  <Timer />
+
+      <HandleForm/>
 
        
    
@@ -26,6 +29,6 @@ const App = () => {
 };
 
 
-export default Timer;
+export default App;
    
   

@@ -51,7 +51,7 @@ const RegisterForm = () => {
            
             <button 
               onClick={closePopup}
-              className="absolute top-1 right-2 text-xl font-bold text-[#b04593] cursor-pointer"
+              className="absolute top-1 right-2 text-xl font-bold bltext-[#b04593] cursor-pointer"
             >
               ✕
             </button>
@@ -62,7 +62,7 @@ const RegisterForm = () => {
             </p>
 
            
-            <div className="text-4xl mt-4 text-[#b04593] font-bold">
+            <div className="text-4xl mt-4 text-black font-bold">
               ✓
             </div>
           </div>
