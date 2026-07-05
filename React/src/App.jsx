@@ -11,7 +11,7 @@ const App = () => {
   return (     
    
     
-      // <RegisterForm/>
+      <RegisterForm/>
 
       // <Assignment1/> 
 
@@ -19,7 +19,7 @@ const App = () => {
 
       //  <Timer />
 
-      <HandleForm/>
+      // <HandleForm/>
 
        
    

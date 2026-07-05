@@ -20,7 +20,7 @@ const RegisterForm = () => {
       <form className="w-96 bg-[#a6eec1] border-2 border-[#b04593] p-6 flex flex-col gap-4 relative">
         
         <h1 className="text-xl font-bold text-[#b04593]">
-          {text === "Register" ? "{Form}" : "Login"}
+          {text === "Register" ? "RegisterForm" : "Login"}
         </h1>
 
         {text === "Register" && (
@@ -40,7 +40,7 @@ const RegisterForm = () => {
           onClick={handleToggle}
           className="bg-[#fef5a1] border-2 border-[#b04593] px-3 py-1 self-end cursor-pointer font-medium"
         >
-          {text === "Register" ? "Login/register" : "Login"}
+          {text === "Register" ? "Register" : "Login"}
         </button>
       </form>
 
