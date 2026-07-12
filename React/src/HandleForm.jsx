@@ -59,7 +59,7 @@ function HandleForm() {
 
   return (
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-6 antialiased font-sans">
-      <div className="w-full max-w-lg bg-white rounded-2xl border border-slate-100 shadow-sm p-8 transition-all hover:shadow-md">
+      <div className="w-full max-w-lg bg-blue-200 squaregit commit -m "you"-2xl border border-slate-900 shadow-sm p-8 transition-all hover:shadow-md">
         
         <h2 className="text-2xl font-semibold text-slate-800 text-center mb-8 tracking-tight">
           Add New Product
@@ -74,9 +74,9 @@ function HandleForm() {
               name="title" 
               value={product.title} 
               onChange={handleInputChange} 
-              className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
-              placeholder="e.g. Wireless Headphones"
-              required 
+              className="w-full px-4 py-2.5 bg-gray-200 border border-slate-200 rectangle-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
+              
+
             />
           </div>
 
@@ -89,9 +89,8 @@ function HandleForm() {
               name="price"
               value={product.price} 
               onChange={handleInputChange} 
-              className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
-              placeholder="0.00"
-              required 
+              className="w-full px-4 py-2.5 bg-gray-200 border border-slate-200 rectangle-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
+              
             />
           </div>
 
@@ -102,9 +101,8 @@ function HandleForm() {
               value={product.description} 
               onChange={handleInputChange} 
               rows="3"
-              className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all resize-none"
-              placeholder="Enter product details..."
-              required 
+              className="w-full px-4 py-2.5 bg-gray-200 border border-slate-200 rectangle-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all resize-none"
+          
             />
           </div>
 
@@ -115,9 +113,9 @@ function HandleForm() {
               name="category"
               value={product.category} 
               onChange={handleInputChange} 
-              className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
-              placeholder="e.g. Electronics"
-              required 
+              className="w-full px-4 py-2.5 bg-gray-200 border border-slate-200 rectnagle-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
+              
+              
             />
           </div>
 
@@ -128,15 +126,15 @@ function HandleForm() {
               name="image"
               value={product.image} 
               onChange={handleInputChange} 
-              className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
-              placeholder="https://example.com/image.jpg"
+              className="w-full px-4 py-2.5 bg-gray-200 border border-slate-200 rectangle-lg text-slate-800 text-sm focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-100 transition-all"
+              
             />
           </div>
 
           <div className="pt-2">
             <button 
               type="submit" 
-              className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium text-sm rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all cursor-pointer"
+              className="w-full py-3 bg-orange-400 hover:bg-indigo-700 text-white font-medium text-sm rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all cursor-pointer"
             >
               Submit Product
             </button>
